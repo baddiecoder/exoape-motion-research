@@ -28,6 +28,7 @@ JS chunks:
 - e38e8c5.js
 - d5d162b.js
 - e36d691.js
+- a4c5813.js
 
 ## pixelflakes
 
