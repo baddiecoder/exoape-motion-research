@@ -56,6 +56,22 @@ Identify:
 - route/page represented
 - unknown files
 
+  Important inventory rule:
+
+Do not rely only on references/README.md. Treat it as a human guide, not as ground truth.
+
+For each site, Codex must derive the real file list from:
+
+1. actual files present in /references/<site>/
+2. script/preload tags inside the main HTML
+3. references/README.md
+
+If these disagree, Codex must:
+- include every actual .js file present in the site folder
+- include every JS file referenced by the HTML
+- flag the mismatch in /work/analysis/file-inventory.md
+- never skip an actual JS file merely because references/README.md omitted it
+
 ### Phase 2: Normalize
 
 Create normalized copies under:
