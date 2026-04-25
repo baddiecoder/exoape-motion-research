@@ -1,0 +1,16 @@
+:root{
+  --color-white:#fff;
+  --color-dark:#0d0e13;
+  --color-dark-60:rgba(13,14,19,.6);
+  --color-light:#e4e0db;
+  --color-sand:#e0ccbb;
+  --color-overlay:#0d0e13;
+  --ease-linear:linear;
+  --space-1:0.5rem;
+  --space-2:1rem;
+  --space-3:1.5rem;
+  --space-4:2rem;
+  --z-page:1;
+  --z-overlay:20;
+  --z-ui:30;
+}

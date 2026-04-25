@@ -1,0 +1,13 @@
+html,body{overflow:hidden;background:var(--color-white);color:var(--color-dark)}
+.app-shell{position:fixed;inset:0;overflow:hidden}
+.scroll-layer{position:fixed;inset:0;overflow:hidden}
+.page-scene{position:absolute;inset:0;will-change:transform}
+.overlay-layer{position:fixed;inset:0;pointer-events:none;z-index:var(--z-overlay)}
+.ui-layer{position:fixed;inset:0;pointer-events:none;z-index:var(--z-ui)}
+.section{min-height:100vh;position:relative;display:flex;align-items:center}
+.container{width:min(1100px,92vw);margin:0 auto}
+.mask{overflow:hidden;display:block}
+.mask-line{display:block;transform-origin:top left}
+.placeholder-media{width:100%;aspect-ratio:16/10;border-radius:12px;background:linear-gradient(135deg,#bcc6d4,#7f8ca1,#46546d);transform:translateZ(0)}
+.debug-panel{position:fixed;right:8px;bottom:8px;width:320px;max-height:45vh;overflow:auto;background:rgba(13,14,19,.88);color:#fff;padding:10px;border-radius:8px;font-size:12px;z-index:60}
+.debug-panel code{display:block;white-space:pre-wrap;color:#cde4ff}
