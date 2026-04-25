@@ -1,0 +1,34 @@
+{
+  "phase": "phase-1",
+  "mode": "manifest-only",
+  "generated_at_utc": "2026-04-25T00:00:00Z",
+  "sites": [
+    {
+      "site": "exoape-studio",
+      "source_dir": "references/exoape-studio",
+      "main_html": ["Studio.txt"],
+      "state_files": ["STUDIOstate.js"],
+      "js_files_present": [
+        "a4c5813.js",
+        "b3e170f.js",
+        "b6072a7.js",
+        "d5d162b.js",
+        "e36d691.js",
+        "e38e8c5.js"
+      ],
+      "js_files_referenced_in_html": [
+        "/_nuxt/b3e170f.js",
+        "/_nuxt/a4c5813.js",
+        "/_nuxt/e36d691.js",
+        "/_nuxt/b6072a7.js",
+        "/_nuxt/e38e8c5.js",
+        "/_nuxt/d5d162b.js"
+      ],
+      "unknown_files": ["2"],
+      "checks": {
+        "a4c5813_present": true,
+        "studio_txt_references_a4c5813": true
+      }
+    }
+  ]
+}
